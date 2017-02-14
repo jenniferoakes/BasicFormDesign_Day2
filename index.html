@@ -17,7 +17,7 @@
 
           <aside>
               <label for='fullname-input'>Full Name</label>
-              <input type='text' name='fullname' id='fullname-input' placeholder='Luke Skywalker'>
+              <input type='text' name='fullname' id='fullname-input' placeholder='Luke Skywalker' required>
           </aside>
 
           <aside>
@@ -27,7 +27,7 @@
 
           <aside>
               <label for='email'>Email</label>
-              <input type='text' name='email' id='email' placeholder='luke@sky.com'>
+              <input type='text' name='email' id='email' placeholder='luke@sky.com' required>
           </aside>
 
           <aside>
@@ -38,7 +38,7 @@
 
           <aside>
             <label for='story'>Origin Story</label>
-            <textarea name='story' name='story' id='story'></textarea>
+            <textarea name='story' name='story' id='story' required></textarea>
           </aside>
 
         </fieldset>
@@ -48,6 +48,14 @@
           <legend>Abilities</legend>
 
           <aside>
+            <label for='lightsaber-Color'>Lightsaber Color</label>
+            <select name='Lightsaber-Color'>
+              <option value=''>Select Color</option>
+              <option value='blue'>Blue</option>
+              <option value='red'>Red</option>
+              <option value='green'>Green</option>
+              <option value='purple'>Purple</option>
+            </select>
           </aside>
 
           <aside>
@@ -61,8 +69,8 @@
           </aside>
 
           <aside>
-            Pilot Experience
-              <label><input type='checkbox' id='speeder' value='speeder'>Speeder</label>
+            <label for='pilot-experience'>Pilot Experience</label>
+              <label><input type='checkbox' id='speeder' value='speeder' name='pilot-experience'>Speeder</label>
               <label><input type='checkbox' id='transport' value='transport'>Transport</label>
               <label><input type='checkbox' id='x-wing' value='x-wing'>X-wing</label>
               <label><input type='checkbox' id='tie-fighter' value='tie-fighter'>TIE Fighter</label>
@@ -81,17 +89,21 @@
 
           <aside>
             <label for='date'>Application Date</label>
-            <input type='date' name='date' id='date'>
+            <input type='date' name='date' id='date' required>
           </aside>
 
           <aside>
               <label for='password'>Application Password</label>
-              <input type='text' name='password' id='password'>
+              <input type='text' name='password' id='password' required>
           </aside>
 
           <aside>
             <label for='dark-side'>How do you get to the dark side?</label>
             <textarea name='text' name='dark-side' id='dark-side'></textarea>
+          </aside>
+
+          <aside>
+
           </aside>
 
       </fieldset>
