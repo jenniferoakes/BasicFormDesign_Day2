@@ -25,6 +25,7 @@ textarea {
   height: 75px;
   width: 100%;
   border-radius: 6px;
+  border-width: 2px;
 }
 
 #last-submit-button {
@@ -37,6 +38,12 @@ textarea {
 label {
   font-weight: bold;
 }
+
+.coloredbuttons {
+  background-color: #9BC8EE;
+}
+
+
 /*input {
   width: 100%;
 }*/
@@ -47,9 +54,7 @@ input[type='radio']{
 }*/
 
 
-.coloredbuttons {
-  background-color: #9BC8EE;
-}
+
 
 /*form {
   margin-left: 50px;
