@@ -1,0 +1,60 @@
+
+body {
+  font-style: Times;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+fieldset {
+  vertical-align: top;
+  display: inline-block;
+  width: 29%;
+}
+
+label {
+  display: block;
+}
+
+aside {
+  margin-top: 10px;
+}
+
+textarea {
+  height: 75px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+#last-submit-button {
+  border-radius: 6px;
+}
+
+#start-over {
+  border-radius: 6px;
+}
+label {
+  font-weight: bold;
+}
+/*input {
+  width: 100%;
+}*/
+
+/*
+input[type='radio']{
+  display: inline;
+}*/
+
+
+.coloredbuttons {
+  background-color: #9BC8EE;
+}
+
+/*form {
+  margin-left: 50px;
+}*/
+
+
+
+displaylock
