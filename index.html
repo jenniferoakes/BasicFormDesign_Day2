@@ -5,10 +5,13 @@
   <head>
     <meta charset='utf-'>
     <title>Force User Sign Up Form</title>
-
+    <link href='homework2.css' rel='stylesheet'>
   </head>
 
   <body>
+    <header>
+        <h1>Force User Sign Up Form</h2>
+    </header>
 
     <form action='http://requestb.in/14zydfi1?inspect' method='post'>
 
@@ -17,7 +20,7 @@
 
           <aside>
               <label for='fullname-input'>Full Name</label>
-              <input type='text' name='fullname' id='fullname-input' placeholder='Luke Skywalker' required>
+              <input type='text' name='fullname' id='fullname-input' placeholder='Luke Skywalker' class='extended-input' required>
           </aside>
 
           <aside>
@@ -27,18 +30,18 @@
 
           <aside>
               <label for='email'>Email</label>
-              <input type='text' name='email' id='email' placeholder='luke@sky.com' required>
+              <input type='text' name='email' id='email' placeholder='luke@sky.com' class='extended-input' required>
           </aside>
 
           <aside>
-            Side:
+            <h3>Side:</h3>
               <label><input type='radio' name='side' value='light'>Light</label>
               <label><input type='radio' name='side' value='dark'>Dark</label>
           </aside>
 
           <aside>
             <label for='story'>Origin Story</label>
-            <textarea name='story' name='story' id='story' required></textarea>
+            <textarea name='story' name='story' id='story' class='extended-input'required></textarea>
           </aside>
 
         </fieldset>
@@ -69,8 +72,8 @@
           </aside>
 
           <aside>
-            <label for='pilot-experience'>Pilot Experience</label>
-              <label><input type='checkbox' id='speeder' value='speeder' name='pilot-experience'>Speeder</label>
+            <h3>Pilot Experience</h3>
+              <label><input type='checkbox' id='speeder' value='speeder'>Speeder</label>
               <label><input type='checkbox' id='transport' value='transport'>Transport</label>
               <label><input type='checkbox' id='x-wing' value='x-wing'>X-wing</label>
               <label><input type='checkbox' id='tie-fighter' value='tie-fighter'>TIE Fighter</label>
@@ -102,15 +105,15 @@
             <textarea name='text' name='dark-side' id='dark-side'></textarea>
           </aside>
 
-          <input type='reset' value='Start Over'>
-          <input type='submit' value='Apply'>
+          <input type='reset' value='Start Over' id='start-over' class='coloredbuttons'>
+          <input type='submit' value='Apply' id='last-submit-button' class='coloredbuttons'>
 
       </fieldset>
+    </form>
 
     <footer>
       <p>&copy; 2016 The Republic</p>
     </footer>
 
-    </form>
   </body>
 </html>
